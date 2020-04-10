@@ -1,0 +1,19 @@
+@import 'font.css';
+
+.corpo {
+    height: calc(100% - 70px);
+    padding: 10px;
+}
+
+.titulo-programa {
+    font-family: futura;
+    font-size: 50px;
+}
+
+.descricao-programa {
+    padding: 10px;
+    width: 100%;
+    font-family: monospace;
+    background-color: #CCC;
+    border-radius: 5px;
+}

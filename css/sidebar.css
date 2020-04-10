@@ -1,0 +1,147 @@
+@import 'font.css';
+
+.titulo {
+    font-family: circuit;
+    color: #FFF;
+    font-size: 50px;
+}
+
+div.flex-dashboard {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+sidebar {
+  display: block;
+  height: 100%;
+  width: 300px;
+  background: linear-gradient(180deg, #000, #111);
+}
+
+main {
+  display: block;
+  height: 100%;
+  background-color: #F7F7F7;
+  width: calc(100% - 300px);
+}
+
+main .main-content {
+  height: calc(100% - 70px);
+  padding: 10px;  
+  overflow-y: auto;
+}
+
+main .main-content .panel {
+  border: 1px solid #000;
+  margin-top: 10px;
+}
+
+.main-content::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.main-content::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.main-content::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#4D9C41),
+									   to(#19911D),
+									   color-stop(.6,#54DE5D))
+}
+
+.flex-dashboard header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  background: linear-gradient(180deg, #000, #222);
+  padding: 30px;
+}
+
+.flex-dashboard header a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.flex-dashboard header a svg {
+  color: #FFF;
+    width: 300%; height: 300%;
+}
+
+.flex-dashboard header a svg:hover {
+  color: #2F2;
+}
+
+sidebar .sidebar-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(180deg, #000, #000);
+}
+
+sidebar .sidebar-title img {
+  height: 70px; width: 70px;
+}
+
+sidebar .sidebar-title h2 { 
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+}
+
+div.menu ul {
+  list-style-type: none;
+}
+
+div.menu li {
+  padding: 20 20px;
+  width: 100%;
+}
+
+div.menu ul li svg {
+  color: #FFF;
+  font-size: 20px;
+}
+
+div.menu ul li a {
+  color: #FFF;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+div.menu ul li a:hover {
+  color: #2F2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
