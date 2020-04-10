@@ -1,0 +1,415 @@
+body {
+    background-image: linear-gradient(to bottom, #2b002a, #2b002a);
+    margin: 0px; padding: 0px;
+}
+
+.container-body {
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+}
+
+@font-face {
+    font-family: hardyblow;
+    src: url(fonte/hardyblow.ttf)
+}
+
+@font-face {
+    font-family: msgotic;
+    src: url(fonte/MSGOTHIC.ttf)
+}
+
+@font-face {
+    font-family: futura;
+    src: url(fonte/futura.ttf)
+}
+
+@font-face {
+    font-family: circuit;
+    src: url(fonte/circuit.ttf)
+}
+
+.titulo {
+    margin-left: 40px;
+    padding-top: 10px;
+    color: #FFF;
+    font-size: 10vw;
+    font-family: circuit;
+}
+
+.container-redes-sociais {
+    width: 100%;
+    height: 5%;
+}
+
+.container-imagem-redes {
+    width: 5%; height: 100%;
+}
+
+.container-imagem-redes:hover {
+    cursor: pointer;
+}
+
+.container_titulo {
+    margin: 0px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.container_img_titulo {
+    width: 10%; height: 10%;
+}
+
+.container_conteudo {
+    margin-top: 30px;
+    padding-left: 10px; 
+    background-image: linear-gradient(to bottom, #2b002a, midnightblue);
+    border-radius: 5px;
+    height: 80%; width: 99%;
+}
+
+.container_programa {
+    margin-top: 50px;
+    background-color: #2b002a;
+    height: 50%; width: 99%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.container-titulo-software {
+    background-color: #1a001a;
+    margin-bottom:10px;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+    text-align: center;
+    width: 100%; height: 15%;
+}
+
+.container-desc-download1 {
+    background-color: #8b008b;
+    width: 95%; height: 70%;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, #8b008b, #2b002a);
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.container-desc-download2 {
+    width: 95%; height: 70%;
+    border-radius: 5px;
+    background-color: none;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.container-desc-img-software {
+    display: flex;
+    width: 100%; height: 100%;
+}
+
+.container-imagem-software {
+    text-align: center;
+    width: 40%; height: 80%;
+}
+
+.container-botao-software {
+    background-color: none;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+.btnLinkTo {
+    background-color: #8b008b;
+    border-width: 0px;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: futura;
+    font-size: 18px;
+    color: aliceblue;
+    width: 130px; height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btnLinkTo:hover {
+    color: aliceblue;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+    background-image: linear-gradient(to bottom, #8b008b, #fa00fa);
+}
+
+
+.btnConfirmar_std {
+    text-align: center;
+    border: none; border-radius: 0px 0px 5px 5px;
+    width: 30%; height: 50px;
+    color: white; background-color:#25A4CC;
+    font-size: 14px; font-family: sans-serif;
+}
+
+.btnConfirmar_std:hover {
+    border: none; border-radius: 0px 0px 15px 15px;
+    transition: all 0.3s ease-in-out;
+    background-color: #363D81;
+    cursor: pointer;
+}
+
+.btnConfirmar {
+    margin-left: 10px;
+    text-align: center;
+    border: none; border-radius: 5px;
+    width: 150px; height: 50px;
+    color: white; background-color: limegreen;
+    font-size: 14px; font-family: sans-serif;
+}
+
+.btnConfirmar:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #900900;
+    cursor: pointer;
+}
+
+.btnConfirmarF {
+    text-align: center;
+    border: none; border-radius: 0px;
+    width: 30%; height: 50px;
+    color: white; background-color: #008800;
+    font-size: 14px; font-family: sans-serif;
+}
+
+.btnConfirmarF:hover {
+    width: 90%;
+    border-radius: 35px;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    color: white; background-color: #00D900;
+    cursor: pointer;
+}
+
+.btnCancelar {
+    margin-left: 10px;
+    text-align: center;
+    border: none; border-radius: 5px;
+    width: 150px; height: 50px;
+    color: #FFFFFF; background-color: #900900;
+    font-size: 14px; font-family: sans-serif;
+}
+
+.btnCancelar:hover {
+    transition: all 0.5s ease-in-out;
+    color: #FFFFFF; background-color: #070045;
+    cursor: pointer;
+}
+
+input[type=file] {
+    margin-left: 10px;
+    text-align: left;
+    border: none; border-radius: 5px;
+    width: 350px; height: 50px;
+    color: white; background-color: #000080;
+    font-size: 14px; font-family: sans-serif;
+}
+
+input[type=file]:hover {
+    cursor: pointer;
+}
+
+label {
+    color: #555;
+    font-family: sans-serif;
+}
+
+.label_12 {
+    font-size: 12px; font-family: futura;
+}
+
+.label_14 {
+    font-size: 14px; font-family:  futura;
+}
+
+.label_16 {
+    font-size: 16px; font-family:  futura;
+}
+
+.label_18 {
+    font-size: 18px; font-family:  futura;
+}
+
+.label_20 {
+    font-size: 20px; font-family:  futura;
+}
+
+.label_25 {
+    font-size: 25px; font-family:  futura;
+}
+
+.label_30 {
+    font-size: 30px; font-family:  futura;
+}
+
+.label_35 {
+    font-size: 35px; font-family:  futura;
+}
+
+.label_40 {
+    font-size: 40px; font-family:  futura;
+}
+
+.label_45 {
+    font-size: 45px; font-family:  futura;
+}
+
+.label_50 {
+    font-size: 50px; font-family:  futura;
+}
+
+.l_label_12 {
+    font-size: 12px; font-family:  futura;
+    color: #FFF;
+}
+
+.l_label_14 {
+    font-size: 14px; font-family:  futura;
+    color: #FFF;
+}
+
+.l_label_16 {
+    font-size: 16px; font-family:  futura;
+    color: #FFF;
+}
+
+.l_label_18 {
+    font-size: 18px; font-family:  futura;
+    color: #FFF;
+}
+
+.l_label_20 {
+    font-size: 20px; font-family: futura;
+    color: #FFF;
+}
+
+.l_label_25 {
+    font-size: 25px; font-family: futura;
+    color: #FFF;
+}
+
+.l_label_30 {
+    font-size: 30px; font-family: futura;
+    color: #FFF;
+}
+
+.l_label_35 {
+    font-size: 35px; font-family:  futura;
+    color: #FFF;
+}
+
+.l_label_40 {
+    font-size: 40px; font-family:  futura;
+    color: #FFF;
+}
+
+.l_label_45 {
+    font-size: 45px; font-family: futura;
+    color: #FFF;
+}
+
+.l_label_50 {
+    font-size: 50px; font-family: futura;
+    color: #FFF;
+}
+
+.div-select100 {
+    width:100px;
+    height:35px;
+    border-radius: 5px;
+    border-width:thin;
+    padding: 5px;
+} 
+.div-select100 select {      
+    width: 100px; 
+    height:35px;
+    border-radius: 5px;
+    border-width:thin;
+    font-family: msgotic; 
+    select::-ms-expand {display: none;}
+}
+.div-select200 {
+    width:200px;
+    height:35px;
+    border-radius: 5px;
+    border-width:thin;
+    padding: 5px;
+} 
+.div-select200 select {      
+    width:200px; 
+    height:35px;
+    border-radius: 5px;
+    border-width:thin;
+    font-family: msgotic; 
+    select::-ms-expand {display: none;}
+
+}
+
+@keyframes example {
+    100%  {background-color:white; color:white; visibility:hidden;}
+}
+
+.labelOut {
+    border-radius:5px;
+    heigth:80px;
+    width:300px;
+    background-color:green;
+    color:white;
+    animation-duration: 2s;
+    animation-name: example;
+    animation-delay:2s;
+    animation-fill-mode:both;
+    margin-left: 15px;
+    font-size: 14px; font-family: sans-serif;
+}
+
+td {
+    padding: 10px;
+    height: 75px;
+}
+
+.h_align {
+    align-items: flex-start;
+    display: flex; 
+}
+
+.bgDark {
+    margin: 0px; padding: 0px;
+    background-color: black;
+}
+
+.bgBlack {
+    background-color: black;
+    border-radius: 0px;
+    width: 2px;
+}
+
+.textArea {
+    height: 200px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
