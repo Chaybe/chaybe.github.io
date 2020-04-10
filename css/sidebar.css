@@ -63,13 +63,13 @@ main .main-content .panel {
 									   color-stop(.6,#54DE5D))
 }
 
-.flex-dashboard header {
+.flex-dashboard header { 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   height: 70px;
-  background: linear-gradient(180deg, #000, #222);
+  background: linear-gradient(180deg, #000, #111);
   padding: 30px;
 }
 
