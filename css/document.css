@@ -1,6 +1,7 @@
 @import 'font.css';
 
 .corpo {
+    overflow: auto;
     height: calc(100% - 70px);
     padding: 10px;
 }
@@ -17,6 +18,29 @@
     border-radius: 5px;
 }
 
+.container-produto {
+    height: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #001111;
+    border-radius: 5px;
+    color: white;
+}
+
+.container-produto:hover { height: 50%; }
+
+.titulo-produto {
+    font-size: 25px;
+}
+
+.descricao-produto {
+    height: 80%;
+    width: 80%;
+    display: inline-flex;
+}
+
 .code {
     padding: 10px;
     width: 100%;
@@ -29,8 +53,8 @@
     margin-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
-    width: 130px;
-    height: 30px;
+    width: 150px;
+    height: 50px;
     border-radius: 2px;
     box-shadow: 2px 2px 0 #333;
     -webkit-box-shadow: 2px 2px 0 #333;
